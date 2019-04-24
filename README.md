@@ -8,7 +8,7 @@ A small utility to find available campsites while avoiding one night gaps in res
 ./mvnw spring-boot:run
 ```
 
-Send a GET request to `http://localhost:8080/reservations/campsites` with a body in the following format.
+Send a GET request to `http://localhost:8080/reservations/campsites` with a body in the following format:
 ```json
 {
   "search": {
